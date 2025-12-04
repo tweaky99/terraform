@@ -15,7 +15,7 @@ variable "organization_name" {
 
 variable "region" {
   description = "The region where the resources are created."
-  default     = "eu-west-1"
+  default     = "eu-nord-1"
 }
 
 variable "instance_name_prefix" {
