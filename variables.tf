@@ -21,7 +21,7 @@ variable "region" {
 variable "instance_name_prefix" {
   description = "Prefix for the name tag of EC2 instances (* Required)"
   type        = string
-  nullable    = false
+  default     = "hho"
 }
 
 variable "instance_type" {
